@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="todo-script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Create a TODO</h1>
+        <span>Todo Name: </span>
+        <input id="create-todo-text-field" type="text" />
+        <button id="create-todo-btn" onclick="createTodoTask();">Create TODO</button>
+    </div>
+
+    <div>
+        <h1>Get All Todos</h1>
+        <button onclick="getAllTodoTasks()">Get All Todos</button>
+        <div id="todo-display-list">
+
+        </div>
+    </div>
+</body>
+</html>
